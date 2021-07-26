@@ -1,0 +1,8 @@
+version: '3'
+services:
+  poc:
+    container_name: poc
+    image: poc_jph:latest  
+    volumes:
+      - "./:/usr/src/app"
+      
